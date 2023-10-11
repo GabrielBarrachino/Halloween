@@ -23,4 +23,9 @@ export const GlobalStyle = createGlobalStyle`
         font: 400 1rem Jolly lodger, sans-serif;
         border: none;
     }
+
+    img{
+        width: 100%;
+        display: block;
+    }
 `
