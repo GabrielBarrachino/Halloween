@@ -103,8 +103,9 @@ export const ImgContainer = styled.div`
             height: 75rem;
         }
     }
-    @media (max-width: 540px){
+    @media (max-width: 400px){
         img{
+            max-width: 39rem;
             height: 65rem;
         }
     }
