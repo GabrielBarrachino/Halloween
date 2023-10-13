@@ -3,6 +3,7 @@ import { defaultTheme } from "./styles/themes/default"
 import { GlobalStyle } from "./styles/global"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
+import { Gallery } from "./components/Gallery"
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
         <GlobalStyle/>
         <Header/>
         <Home/>
+        <Gallery/>
       </ThemeProvider>
     </>
   )
