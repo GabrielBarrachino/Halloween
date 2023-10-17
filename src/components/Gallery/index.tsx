@@ -17,7 +17,7 @@ export function Gallery(){
             <div>
                 <img src={bats} alt="" />
             </div>
-            <GalleryContainer>
+            <GalleryContainer id='gallery'>
                 <TopContainer>
                     <h2>Halloween Memories</h2>
                 </TopContainer>

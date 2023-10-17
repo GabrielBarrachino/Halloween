@@ -10,19 +10,19 @@ export function Header(){
             <NavContainer>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#">Gallery</a>
+                        <a href="#gallery">Gallery</a>
                     </li>
                     <li>
-                        <a href="#">About Party</a>
+                        <a href="#about">About Party</a>
                     </li>
                     <li>
-                        <a href="#">Reservation</a>
+                        <a href="#card">Reservation</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#footer">Contact</a>
                     </li>
                 </ul>
             </NavContainer>

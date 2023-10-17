@@ -4,7 +4,7 @@ import { HomeContainer, ImgContainer, TextContainer } from './style';
 
 export function Home(){
     return(
-        <HomeContainer>
+        <HomeContainer id='home'>
             <TextContainer>
                 <h3>
                     <img src={calendar} alt="" />
