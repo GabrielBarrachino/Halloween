@@ -5,11 +5,23 @@ export const CardContainer = styled.section`
     max-width: 122.2rem;
     margin: 0 auto;
     padding: 5.5rem 1.5rem;
-    display: none;
     .title{
         font-size: 5.8rem;
         color: ${props => props.theme['orangeColor']};
         text-align: center;
+    }
+
+    @media (max-width: 990px){
+        padding: 5rem 1.5rem;
+        .title{
+            font-size: 5rem;
+        }
+    }
+    @media (max-width: 600px){
+        padding: 3rem 1.5rem;
+        .title{
+            font-size: 3rem;
+        }
     }
 `
 
@@ -17,6 +29,7 @@ export const CardsContent = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 4.8rem;
     gap: 3rem;
     .card{
@@ -79,6 +92,36 @@ export const CardsContent = styled.div`
             transition: all .3s;
             &:hover{
                 background: #E96015;
+            }
+        }
+    }
+
+    @media (max-width: 600px){
+        margin-top: 4rem;
+        .card{
+            max-width: 32em;
+            height: 43rem;
+            padding: 2rem 4rem;
+            .textsContainer{
+                h5{
+                    font-size: 3rem;
+                    margin-bottom: 1.3rem;
+                }
+                span{
+                    font-size: 2.5rem;
+                }
+                .description{
+                    margin-top: 3rem;
+                    font-size: 2rem;
+                    p{
+                        &:not(:last-child){
+                            margin-bottom: 2.6rem;
+                        }
+                    }
+                }
+            }
+            button{
+                font-size: 1.5rem;
             }
         }
     }
