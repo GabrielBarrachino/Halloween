@@ -125,4 +125,29 @@ export const CardsContent = styled.div`
             }
         }
     }
+    @media (max-width: 450px){
+        .card{
+            max-width: 30em;
+            height: 37rem;
+            padding: 1rem 2rem;
+            .textsContainer{
+                h5{
+                    font-size: 2.5rem;
+                    margin-bottom: 1rem;
+                }
+                span{
+                    font-size: 2rem;
+                }
+                .description{
+                    margin-top: 3rem;
+                    font-size: 1.7rem;
+                    p{
+                        &:not(:last-child){
+                            margin-bottom: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 `
