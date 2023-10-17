@@ -79,6 +79,9 @@ export const TopTextContainer = styled.div`
         .imgSpider{
             display: none;
         }
+        .web{
+            display: none;
+        }
     }
     @media (max-width: 800px){
         div{
